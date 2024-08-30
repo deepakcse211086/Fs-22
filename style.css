@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    background-color: #212121; /* Dark background for the container */
+    background-color: #532424; /* Dark background for the container */
     width: 100vw;
     height: 100vh;
     padding: 20px; /* Padding for some space around content */
@@ -37,7 +37,7 @@ button {
     width: 120px; /* Slightly wider buttons */
     height: 50px; /* Slightly taller buttons */
     border-radius: 10px; /* Rounded corners for buttons */
-    background-color: #000000; /* Black background for buttons */
+    background-color: #3f4d18; /* Black background for buttons */
     color: #ffffff; /* White text color */
     border: none; /* Remove default border */
     font-size: 18px; /* Adjust font size for readability */
