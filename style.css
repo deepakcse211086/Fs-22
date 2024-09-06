@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    background-color: #532424; /* Dark background for the container */
+    background-color: #fff8f8; /* Dark background for the container */
     width: 100vw;
     height: 100vh;
     padding: 20px; /* Padding for some space around content */
