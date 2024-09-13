@@ -63,6 +63,10 @@ img {
     margin-block: 15px;
 }
 
+.coffee_menu>div>h4 {
+    margin-block: 15px;
+}
+
 .img img {
     height: 100px;
     width: 100px;
@@ -72,9 +76,7 @@ img {
     scale: 1.1;
 }
 
-.coffee_menu>div>h4 {
-    margin-block: 15px;
-}
+
 
 .des {
     width: 90%;
