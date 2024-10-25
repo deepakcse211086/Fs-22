@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #00285e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.ad {
+    margin: 20px 0;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00285e;
+}
+
+h2 {
+    color: #00285e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.ranking-header {
+    background-color: #00a870; /* Green for Test */
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ranking-header.odi {
+    background-color: #006abf; /* Blue for ODI */
+}
+
+.ranking-header.t20 {
+    background-color: #d92027; /* Pink for T20 */
+}

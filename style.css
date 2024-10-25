@@ -1,60 +1,60 @@
-/* Resetting default browser styles */
-body, h1, button, a {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
-    font-family: Arial, sans-serif; /* Setting a default font */
-    background-color: #f0f0f0; /* Light grey background for better contrast */
+background-color: #f4f0f0;
+width: 100vw;
+margin:0 auto0;
 }
 
 .heading {
-    color: #ffffff; /* White color for the heading */
-    margin-bottom: 20px; /* Spacing below the heading */
+    color: #4830a0; 
+    /* margin-bottom: 20px;  */
+    margin: 0 auto;
+    font-size: 3rem;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;
     align-items: center;
-
-    background-color: #fff8f8; /* Dark background for the container */
-    width: 100vw;
+margin: auto;  
+justify-content: space-evenly;
+gap: 0px;
+  background-color: #040404; 
+    width: 80vw;
     height: 100vh;
-    padding: 20px; /* Padding for some space around content */
-    border-radius: 10px; /* Rounded corners for the container */
+    /* padding: 20px; */
+    border-radius: 10px; 
 }
 
 .assignement {
     display: flex;
     flex-direction: row;
-    gap: 15px; /* Space between buttons */
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 button {
-    width: 120px; /* Slightly wider buttons */
-    height: 50px; /* Slightly taller buttons */
-    border-radius: 10px; /* Rounded corners for buttons */
-    background-color: #3f4d18; /* Black background for buttons */
-    color: #ffffff; /* White text color */
-    border: none; /* Remove default border */
-    font-size: 18px; /* Adjust font size for readability */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s; /* Smooth background color transition */
+    width: 120px;
+    border-radius: 10px; 
+    background-color: #3f4d18; 
+    color: #ffffff; 
+    border: none; 
+    font-size: 18px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
 }
 
 button:hover {
-    background-color: #333333; /* Lighter black on hover */
+    background-color: #333333; 
 }
 
 a {
-    text-decoration: none; /* Remove underline from links */
-    color: #ffffff; /* White text color for links */
-    display: flex; /* Center text vertically */
-    align-items: center; /* Center text vertically */
-    justify-content: center; /* Center text horizontally */
-    height: 100%; /* Full height to match button */
-}
+    text-decoration: none; 
+    color: #ffffff; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
+} 
