@@ -1,25 +1,46 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Age Calculator</title>
-    <link rel="stylesheet" href="/style.css">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="container">
-        <h1>Age Calculator</h1>
-        <div class="form">
-            <label for="birthday">Enter you date of birth</label>
-            <input type="date" id="birthday" name="birthday">
-            <button id="btn" fdprocessedid="54r0uf">Calculate Age</button>
-            <p id="result">Your age is 21 years old</p>
+        <div class="inputs-wrapper">
+            <input type="date" id="date-input">
+            <button onclick="ageCalculate()">Calculate</button>
+        </div>
+        <div class="outputs-wrapper">
+            <div>
+                <span id="years">
+                    -
+                </span>
+                <p>
+                    Years
+                </p>
+            </div>
+            <div>
+                <span id="months">
+                    -
+                </span>
+                <p>
+                   Months
+                </p>
+            </div>
+            <div>
+                <span id="days">
+                    -
+                </span>
+                <p>
+                    Days
+                </p>
+            </div>
         </div>
     </div>
-
-    <script src="/age-calculator/index.js"></script>
-
-<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body>
-
+    <script src="script.js"></script>
+</body>
 </html>
